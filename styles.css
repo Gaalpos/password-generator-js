@@ -48,7 +48,5 @@ button:hover {
     /* background-color: rgba(0, 255, 47, 0.201); */
     text-align: center;
     align-self: center;
-    max-width: 20%;
     margin: auto;
-    border-radius: 10px;
 }
