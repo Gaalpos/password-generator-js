@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Hacker';
+    src: url('./fonts/Hacked-KerX.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+body {
+    align-self: center;
+    text-align: center;
+    background-color: rgb(62, 62, 62);
+    color: white;
+    background-image: url(png.jpg);
+    background-size: cover;
+    font-family: 'Hacker', sans-serif;
+
+    text-shadow: 2px 0 #11b020, -2px 0 #942222, 0 2px #2719ed, 0 -2px #d11212,
+        1px 1px #c90d0d, -1px -1px #ef1919, 1px -1px #e7dc09, -1px 1px #ae00ff;
+
+
+}
+
+.app {
+    background-color: rgba(0, 255, 115, 0.164);
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(10, 135, 16);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+
+.checkbox {
+    margin: 10px;
+}
+
+button:hover {
+    background-color: rgb(18, 219, 28);
+    color: white;
+    padding: 5px;
+}
+
+.passwordsList {
+    /* background-color: rgba(0, 255, 47, 0.201); */
+    text-align: center;
+    align-self: center;
+    max-width: 20%;
+    margin: auto;
+    border-radius: 10px;
+}
